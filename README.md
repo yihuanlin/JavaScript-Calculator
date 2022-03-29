@@ -3,7 +3,7 @@
 
 An input bar will appear and your input expression will be evaluated
 
-Usage example: exp(sqrt(3e1)/24*R/lg(2^4)/ln(7)) will return "2.247412716187969", "2.247" and "2.247e0". "2.247e0" will be copied to your clipboard
+Usage example: exp(sqrt(3e1)/24*R/lg(2^4)/ln(7)) will return "2.247412716187969", "2.247" and "2.247e0". Click any of it will copy it to your clipboard.
 
 - Option 1: Click this link to add this UserScript for moodle.ucl.ac.uk to Tampermonkey: https://raw.githubusercontent.com/yihuanlin/JavaScript-Calculator/main/Moodle.user.js
 
@@ -21,4 +21,4 @@ var div=document.createElement("div");div.style.cssText="all:initial;transparent
 document.querySelectorAll(".fromShortcuts").forEach(el => el.remove());
 ```
 
-Not-JavaScript-based Calculator Shortcuts for iOS 12 or abovef/macOS Monterey or above: https://www.icloud.com/shortcuts/ec1c0d8818594f0580e79bf0bdc5bab4
+- Not-JavaScript-based Calculator Shortcuts for iOS 12 or abovef/macOS Monterey or above: https://www.icloud.com/shortcuts/ec1c0d8818594f0580e79bf0bdc5bab4
