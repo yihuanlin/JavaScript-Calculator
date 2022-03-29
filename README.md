@@ -1,5 +1,5 @@
 # JavaScript Calculator
- Add a calculator to webpage in macOS Shortcuts or Tampermonkey UserScript
+ Add a calculator to webpage using macOS Shortcuts or Tampermonkey UserScript
 
 An input bar will appear and your input expression will be evaluated
 
