@@ -18,9 +18,14 @@ input.addEventListener('keyup', function() {
         let b = Math.round(a[0] * 1000) / 1000;
         b = b.toString() + "e" + a[1].replace("+", "");
         a = x.toFixed(3).replace(".000", "").replace("e+", "e");
-        navigator.clipboard.writeText(a);
         list.innerHTML = "<span style='margin-top:0;margin-left:10px;display:block;clear:both;width:580px;line-height:30px;font-size:18px;'>" + x + "</span>" + "<span style='margin-top:0;margin-left:10px;display:block;clear:both;width:580px;line-height:30px;font-size:18px;'>" + a + '</span>' + "<span style='margin-top:0;margin-left:10px;display:block;clear:both;width:580px;line-height:30px;font-size:18px;'>" + b + '</span>';
         list.style.display = 'block';
+        for (let i = 0; i < list.children.length; i++) {
+            const span = list.children[i]
+            span.onclick = function() {
+                navigator.clipboard.writeText(this.innerHTML);
+            }
+        }
     } catch (error) {
         list.style.display = 'none';
     }
