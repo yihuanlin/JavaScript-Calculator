@@ -1,0 +1,1 @@
+document.querySelectorAll(".fromShortcuts").forEach(el => el.remove());

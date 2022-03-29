@@ -27,7 +27,7 @@
     document.body.appendChild(list);
     input.addEventListener('keyup', function() {
         try {
-            let x = eval(input.value.replace("ln", "Math.log").replace("log", "Math.log10").replace("lg", "Math.log10").replace("sqrt", "Math.sqrt").replace("^", "**").replace("*", "*").replace("x", "*").replace("e*p", "Math.exp").replace("NA", "6.022e23").replace("R", "8.314").replace("F", "96485").replace("C", "2.998e8").replace("H", "6.626e-34").replace("K", "273.15"));
+            let x = eval(input.value.replace("log", "Math.log10").replace("lg", "Math.log10").replace("ln", "Math.log").replace("sqrt", "Math.sqrt").replace("^", "**").replace("*", "*").replace("x", "*").replace("e*p", "Math.exp").replace("NA", "6.022e23").replace("R", "8.314").replace("F", "96485").replace("C", "2.998e8").replace("H", "6.626e-34").replace("K", "273.15"));
             let a = x.toExponential().split("e");
             let b = Math.round(a[0] * 1000) / 1000;
             b = b.toString() + "e" + a[1].replace("+", "");
