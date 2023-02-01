@@ -21,4 +21,4 @@ var form=document.createElement("form");form.style.cssText="all:initial;transpar
 document.querySelectorAll(".fromShortcuts").forEach(el => el.remove());
 ```
 
-- Not-JavaScript-based Calculator Shortcuts for iOS 12 or abovef/macOS Monterey or above: https://www.icloud.com/shortcuts/ec1c0d8818594f0580e79bf0bdc5bab4
+- Not-JavaScript-based Calculator Shortcuts for iOS 12 or above / macOS Monterey or above: https://www.icloud.com/shortcuts/ec1c0d8818594f0580e79bf0bdc5bab4
