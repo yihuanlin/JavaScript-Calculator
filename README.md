@@ -4,7 +4,7 @@
 An input bar will appear and your input expression will be evaluated
 
 Example usage: exp(sqrt(3e1)/24*R/lg(2^4)/ln(7)) will return "2.247412716187969", "2.247" and "2.247e0". Click any of them will copy it to your clipboard.
-
+## Setup
 - Option 1: Click this link to add this UserScript for moodle.ucl.ac.uk to Tampermonkey: https://raw.githubusercontent.com/yihuanlin/JavaScript-Calculator/main/Moodle.user.js
 
 - Option 2: Shortcuts for iOS 12 or above/macOS Monterey or above: https://www.icloud.com/shortcuts/2a72a1df5af94632abd070bd3f333668
