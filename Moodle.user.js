@@ -26,8 +26,9 @@
     document.body.appendChild(form);
     form.appendChild(input);
     document.body.appendChild(list);
+    document.querySelector('.userpicture').src = 'https://yhl.ac.cn/icon/Avatar.png';
     form.onsubmit = function() {
-        window.open("https://duckduckgo.com/?q=" + input.value + "&ia=web", '_blank');
+        window.open("https://www.bing.com/search?q=" + input.value, '_blank');
         return false
     }
     input.addEventListener('input', function() {
