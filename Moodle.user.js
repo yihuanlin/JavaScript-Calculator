@@ -6,7 +6,7 @@
 // @author       yihuanlin
 // @match        https://moodle.ucl.ac.uk/*
 // @match        https://europe.wiseflow.net/*
-// @icon         https://cdn.ucl.ac.uk/indigo/images/favicon.ico
+// @icon         https:/yhl.ac.cn/icon/Avatar.png
 // @grant        none
 // ==/UserScript==
 
